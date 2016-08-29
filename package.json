@@ -1,0 +1,30 @@
+{
+  "name": "safei",
+  "version": "0.0.1",
+  "description": "Nodejs",
+  "main": "index.js",
+  "scripts": {
+    "build" : "babel src -d app",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DevoteeChen/Safei.git"
+  },
+  "author": "DevoteeChen",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/DevoteeChen/Safei/issues"
+  },
+  "homepage": "https://github.com/DevoteeChen/Safei#readme",
+  "devDependencies": {
+    "babel-cli": "^6.14.0",
+    "babel-plugin-transform-runtime": "^6.12.0"
+  },
+  "dependencies": {
+    "babel-preset-latest": "^6.14.0",
+    "babel-preset-stage-3": "^6.11.0",
+    "babel-runtime": "^6.11.6",
+    "koa": "^2.0.0-alpha.6"
+  }
+}
